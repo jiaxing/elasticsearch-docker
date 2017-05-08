@@ -1,0 +1,9 @@
+bootstrap.memory_lock: true
+cluster.name: es-dev-cluster
+discovery.zen.minimum_master_nodes: 1
+discovery.zen.ping.unicast.hosts:
+  - es-dev-1
+network.host: 0.0.0.0
+node.name: es-dev-2
+path.data: /var/data/elasticsearch
+path.logs: /var/log/elasticsearch
