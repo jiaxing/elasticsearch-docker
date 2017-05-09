@@ -26,7 +26,6 @@ services:
     image: jaysong/elasticsearch:5.4.0
     container_name: es-dev-2
     environment:
-      - node.master=false
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ulimits:
       memlock:
