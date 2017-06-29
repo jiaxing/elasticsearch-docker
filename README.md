@@ -5,7 +5,7 @@ Docker Hub images.
 
 ## Feature:
 
-- Built on top of [`docker.elastic.co/elasticsearch/elasticsearch:5.4.0`](https://github.com/elastic/elasticsearch-docker/tree/5.4).
+- Built on top of [`docker.elastic.co/elasticsearch/elasticsearch:5.4.1`](https://github.com/elastic/elasticsearch-docker/tree/5.4).
 - Removed [X-Pack](https://www.elastic.co/guide/en/x-pack/5.4/index.html).
 - Created two mount points `/var/data/elasticsearch` and `/var/log/elasticsearch` owned by
   `elasticsearch:elasticsearch`. It's up to the user to use these directories (see
@@ -15,7 +15,7 @@ Docker Hub images.
 
 ### Start a single-node cluster
 ```
-docker run --rm -p 9200:9200 jaysong/elasticsearch:5.4.0
+docker run --rm -p 9200:9200 jaysong/elasticsearch:5.4.1
 ```
 
 ### Start a two-node cluster with Docker Compose

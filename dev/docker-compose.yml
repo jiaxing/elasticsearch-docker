@@ -1,7 +1,7 @@
 version: '2'
 services:
   es-dev-1:
-    image: jaysong/elasticsearch:5.4.0
+    image: jaysong/elasticsearch:5.4.1
     container_name: es-dev-1
     environment:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
@@ -24,7 +24,7 @@ services:
     networks:
       - esnet
   es-dev-2:
-    image: jaysong/elasticsearch:5.4.0
+    image: jaysong/elasticsearch:5.4.1
     container_name: es-dev-2
     environment:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
